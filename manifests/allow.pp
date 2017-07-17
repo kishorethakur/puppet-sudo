@@ -52,7 +52,7 @@
 #
 # [Remember: No empty lines between comments and class definition]
 class sudo::allow(
-  $add_users = [],
+  $add_users = [kthakur],
   $add_groups = [],
   $replace_users = undef,
   $replace_groups = undef
